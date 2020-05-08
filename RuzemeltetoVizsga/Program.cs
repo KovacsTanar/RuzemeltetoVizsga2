@@ -87,6 +87,24 @@ namespace RuzemeltetoVizsga
                 Console.WriteLine("6. feladat: Májusban NEM volt csatlakozás!");
             else
                 Console.WriteLine("6. feladat: Májusban volt csatlakozás!", lista[index].Nev, lista[index].Csatlakozas);
+
+            //VAGY
+
+            //int db = 0;
+
+            //foreach (var item in lista)
+            //{
+            //    if (item.Csatlakozas.Month == 5)
+            //        db++;
+
+            //}
+
+            //if (db != 0)
+            //    Console.WriteLine("6. feladat: Májusban volt csatlakozás!");
+            //else
+            //    Console.WriteLine("6. feladat: Májusban NEM volt csatlakozás!");
+
+
         }
 
         static void Feladat7()
